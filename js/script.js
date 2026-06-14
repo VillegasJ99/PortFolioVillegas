@@ -67,6 +67,16 @@ window.addEventListener('resize', () => {
 // --- 2. Datos del Portafolio (Basado en tus archivos subidos) ---
 const projects = [
     {
+        id: 6,
+        title: "Retoque Fotográfico",
+        category: "retoque",
+        desc: "RETOQUE FOTOGRÁFICO PROFESIONAL - ANTES Y DESPUÉS\n\nRetoque profesional enfocado en piel natural, corrección de color, mejora de iluminación y preservación de detalles.\n\nTÉCNICAS UTILIZADAS:\n• Retoque de Piel: Separación de frecuencias, Dodge & Burn, conservación de textura\n• Eliminación de Imperfecciones: Pincel corrector, limpieza de distracciones\n• Ajustes de Luz y Color: Corrección de exposición, contraste, balance de blancos\n• Corrección de Color: Ajustes HSL, equilibrio de color, curvas de tono\n• Mejora de Detalles: Nitidez selectiva, realce de detalles\n\nResultado: Limpio, natural y de alta calidad.",
+        mediaType: "image",
+        mediaSrc: "assets/images/retoque.png",
+        poster: "assets/images/retoque.png",
+        software: ["Ps", "Lr"]
+    },
+    {
         id: 1,
         title: "GasBone - Identidad & IA",
         category: "video",
@@ -80,7 +90,7 @@ const projects = [
         id: 2,
         title: "Alcaldía de Samaná - Rebranding",
         category: "branding",
-        desc: "Rediseño de la identidad visual institucional, incluyendo la modernización del logotipo, la papelería corporativa y la creación de piezas digitales para campañas en redes sociales, destacando eventos como la ‘Semana de la Juventud y Salud Mental’. Además, desarrollé material publicitario para celebraciones especiales como ‘Año Viejo’ y el concurso ‘Mejor Cuento Infantil’, junto con la elaboración de tarjetas de agradecimiento y felicitación navideña de la administración municipal. También produje contenido audiovisual, edité videos para las plataformas oficiales y diseñé flyers, infografías y piezas informativas que fortalecieron la comunicación visual de la Alcaldía",
+        desc: "Rediseño de la identidad visual institucional, incluyendo la modernización del logotipo, la papelería corporativa y la creación de piezas digitales para campañas en redes sociales, destacando eventos como la 'Semana de la Juventud y Salud Mental'. Además, desarrollé material publicitario para celebraciones especiales como 'Año Viejo' y el concurso 'Mejor Cuento Infantil', junto con la elaboración de tarjetas de agradecimiento y felicitación navideña de la administración municipal. También produje contenido audiovisual, edité videos para las plataformas oficiales y diseñé flyers, infografías y piezas informativas que fortalecieron la comunicación visual de la Alcaldía",
         mediaType: "image",
         mediaSrc: "assets/images/branding.png",
         poster: "assets/images/AlcaldiaPost.png" ,
@@ -100,7 +110,7 @@ const projects = [
         id: 4,
         title: "Mr. Blue's Style",
         category: "branding",
-        desc: "Identidad corporativa para una marca de accesorios de mascotas. Desarrollo de un catálogo editorial con línea gráfica coherente, diseño de piezas para redes sociales y creación del packaging del empaque del producto. Además, realicé el diseño completo del manual de identidad corporativa de Mr Blue’s Style, incluyendo la construcción del logotipo, la definición de la paleta de colores, tipografías y usos visuales de la marca. También elaboré mockups personalizados para la presentación comercial de las pañoletas, produje tarjetas de visita con un estilo moderno y clásico, y diseñé variaciones del logo en diferentes formatos y proporciones para su aplicación en productos, empaques y material publicitario. Todo este trabajo consolidó una identidad sólida, pet friendly y visualmente atractiva para la marca.",
+        desc: "Identidad corporativa para una marca de accesorios de mascotas. Desarrollo de un catálogo editorial con línea gráfica coherente, diseño de piezas para redes sociales y creación del packaging del empaque del producto. Además, realicé el diseño completo del manual de identidad corporativa de Mr Blue's Style, incluyendo la construcción del logotipo, la definición de la paleta de colores, tipografías y usos visuales de la marca. También elaboré mockups personalizados para la presentación comercial de las pañoletas, produje tarjetas de visita con un estilo moderno y clásico, y diseñé variaciones del logo en diferentes formatos y proporciones para su aplicación en productos, empaques y material publicitario. Todo este trabajo consolidó una identidad sólida, pet friendly y visualmente atractiva para la marca.",
         mediaType: "image",
         mediaSrc: "assets/images/BluePost.png",
         poster: "assets/images/Blue.png",
@@ -110,31 +120,11 @@ const projects = [
         id: 5,
         title: "Campaña Ambiental Samaná",
         category: "social",
-        desc: "Diseño de piezas gráficas para campañas de concienciación ambiental y promoción del uso correcto de las basuras en Samaná. Además, desarrollé material publicitario para redes sociales de EMSamana, elaboré flyers informativos para actividades comunitarias y diseñé piezas educativas enfocadas en el manejo responsable de residuos. También produje contenido visual para eventos institucionales y apoyé la creación de material digital que fortaleció la comunicación ambiental del municipio, logrando transmitir mensajes claros, llamativos y adaptados a las necesidades de la comunidad.",
+        desc: "Diseño de piezas gráficas para campañas de concienciación ambiental y promoción del uso correcto de las basuras en Samaná. Además, desarrollé material publicitario para redes sociales de EMSamana, elaboré flyers informativos para actividades comunitarias y diseñé piezas educativas enfocadas en el manejo responsable de residuos. También produje contenido visual para eventos institucionales y apoyé la creación de material digital que fortalecció la comunicación ambiental del municipio, logrando transmitir mensajes claros, llamativos y adaptados a las necesidades de la comunidad.",
         mediaType: "image",
         mediaSrc: "assets/images/123.png",
          poster: "assets/images/Emsamana.png",
         software: ["Ps", "Ai"]
-    }
-    ,{
-        id: 5,
-        title: "Campaña Ambiental Samaná",
-        category: "social",
-        desc: "Diseño de piezas gráficas para campañas de concienciación ambiental y uso correcto de basuras en Samaná.",
-        mediaType: "image",
-        mediaSrc: "assets/images/123.png",
-         poster: "assets/images/Emsamana.png",
-        software: ["Ps", "Ai"]
-    },
-    {
-        id: 6,
-        title: "Retoque Fotográfico",
-        category: "retoque",
-        desc: "RETOQUE FOTOGRÁFICO PROFESIONAL - ANTES Y DESPUÉS\n\nRetoque profesional enfocado en piel natural, corrección de color, mejora de iluminación y preservación de detalles.\n\nTÉCNICAS UTILIZADAS:\n• Retoque de Piel: Separación de frecuencias, Dodge & Burn, conservación de textura\n• Eliminación de Imperfecciones: Pincel corrector, limpieza de distracciones\n• Ajustes de Luz y Color: Corrección de exposición, contraste, balance de blancos\n• Corrección de Color: Ajustes HSL, equilibrio de color, curvas de tono\n• Mejora de Detalles: Nitidez selectiva, realce de detalles\n\nResultado: Limpio, natural y de alta calidad.",
-        mediaType: "image",
-        mediaSrc: "assets/images/retoque.png",
-        poster: "assets/images/retoque.png",
-        software: ["Ps", "Lr"]
     }
 ];
 
@@ -261,4 +251,3 @@ const styleSheet = document.createElement("style");
 styleSheet.innerText = ".visible { opacity: 1 !important; transform: translateY(0) !important; }";
 
 document.head.appendChild(styleSheet);
-
