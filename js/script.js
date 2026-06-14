@@ -82,7 +82,7 @@ const projects = [
         category: "video",
         desc: "Creación integral de la identidad para una línea de refrescos llamada GasBone. Desarrollo del logotipo, diseño completo del packaging y producción de un video promocional con estética cinematográfica, destacando los sabores Cherry y Mango. Además, se elaboró un spot audiovisual de alto impacto que presentó estos dos productos de manera inmersiva y sensorial, logrando que la marca GasBone experimentara un incremento notable y sostenido en sus ventas gracias a esta estrategia visual.",
         mediaType: "video",
-        mediaSrc: "assets/videos/GasBone.mp4",
+        mediaSrc: "assets/videos/GasBone_New.mp4",
         poster: "assets/images/gasbone.png",
         software: ["Ai", "Ps", "IA"]
     },
