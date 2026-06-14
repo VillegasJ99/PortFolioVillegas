@@ -130,10 +130,10 @@ const projects = [
         id: 6,
         title: "Retoque Fotográfico",
         category: "retoque",
-        desc: "Especializado en la edición y retoque de fotografías de alto impacto. Realizo trabajos de postproducción fotográfica que transforman imágenes ordinarias en piezas visuales extraordinarias. Mi expertise incluye corrección de color, ajuste de iluminación, retoque de piel, eliminación de elementos no deseados, y mejora general de la calidad visual. Cada fotografía es tratada con precisión técnica y sensibilidad artística para garantizar resultados profesionales que destaquen en cualquier contexto, desde retratos corporativos hasta fotografía de productos y contenido editorial.",
+        desc: "RETOQUE FOTOGRÁFICO PROFESIONAL - ANTES Y DESPUÉS\n\nRetoque profesional enfocado en piel natural, corrección de color, mejora de iluminación y preservación de detalles.\n\nTÉCNICAS UTILIZADAS:\n• Retoque de Piel: Separación de frecuencias, Dodge & Burn, conservación de textura\n• Eliminación de Imperfecciones: Pincel corrector, limpieza de distracciones\n• Ajustes de Luz y Color: Corrección de exposición, contraste, balance de blancos\n• Corrección de Color: Ajustes HSL, equilibrio de color, curvas de tono\n• Mejora de Detalles: Nitidez selectiva, realce de detalles\n\nResultado: Limpio, natural y de alta calidad.",
         mediaType: "image",
-        mediaSrc: "assets/images/retoque-placeholder.png",
-        poster: "assets/images/retoque-placeholder.png",
+        mediaSrc: "assets/images/retoque.png",
+        poster: "assets/images/retoque.png",
         software: ["Ps", "Lr"]
     }
 ];
