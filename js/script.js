@@ -125,6 +125,16 @@ const projects = [
         mediaSrc: "assets/images/123.png",
          poster: "assets/images/Emsamana.png",
         software: ["Ps", "Ai"]
+    },
+    {
+        id: 6,
+        title: "Retoque Fotográfico",
+        category: "retoque",
+        desc: "Especializado en la edición y retoque de fotografías de alto impacto. Realizo trabajos de postproducción fotográfica que transforman imágenes ordinarias en piezas visuales extraordinarias. Mi expertise incluye corrección de color, ajuste de iluminación, retoque de piel, eliminación de elementos no deseados, y mejora general de la calidad visual. Cada fotografía es tratada con precisión técnica y sensibilidad artística para garantizar resultados profesionales que destaquen en cualquier contexto, desde retratos corporativos hasta fotografía de productos y contenido editorial.",
+        mediaType: "image",
+        mediaSrc: "assets/images/retoque-placeholder.png",
+        poster: "assets/images/retoque-placeholder.png",
+        software: ["Ps", "Lr"]
     }
 ];
 
