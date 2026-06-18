@@ -206,7 +206,7 @@ window.addEventListener('click', (e) => {
 });
 
 // --- 5. Efecto Typewriter (Máquina de escribir) ---
-const typeText = ["Diseñador Gráfico", "Editor de Video", "Creador de Contenido"];
+const typeText = ["Desarrollo Visual", "Edición de Video", "Marketing & Estrategia", "Creación de Contenido", "Briefing Creativo"];
 let count = 0;
 let index = 0;
 let currentText = "";
