@@ -78,13 +78,13 @@ const projects = [
     },
     {
         id: 1,
-        title: "GasBone - Identidad & IA",
+        title: "GasBone Mango - Identidad & IA",
         category: "video",
-        desc: "Creación integral de la identidad para una línea de refrescos llamada GasBone. Desarrollo del logotipo, diseño completo del packaging y producción de un video promocional con estética cinematográfica, destacando los sabores Cherry y Mango. Además, se elaboró un spot audiovisual de alto impacto que presentó estos dos productos de manera inmersiva y sensorial, logrando que la marca GasBone experimentara un incremento notable y sostenido en sus ventas gracias a esta estrategia visual.",
+        desc: "GasBone Mango: Participé en el proceso creativo integral del lanzamiento de esta nueva bebida energizante. Mi contribución incluyó el diseño completo del packaging con identidad visual distintiva, creación de flyers virales optimizados para redes sociales, y producción del video promocional cinematográfico que captura la esencia del producto.\n\nAdemás, desarrollé la estrategia de marketing digital para maximizar el alcance y las ventas, incluyendo la conceptualización visual de la línea, exploración cromática basada en el sabor intenso del mango, y elaboración de mockups comerciales para presentaciones internas y externas.\n\nEl resultado fue un posicionamiento visual y comercial sólido que destacó en el mercado, generando incremento notable en ventas y reconocimiento de marca. Utilicé herramientas avanzadas de diseño, edición de video e IA para crear contenido de alto impacto que resonara con el público objetivo.",
         mediaType: "video",
         mediaSrc: "assets/videos/GasBone_New.mp4",
-        poster: "assets/images/gasbone.png",
-        software: ["Ai", "Ps", "IA"]
+        poster: "assets/images/GasBone_Mango_Cover.png",
+        software: ["Ai", "Ps", "Pr", "IA"]
     },
     {
         id: 2,
